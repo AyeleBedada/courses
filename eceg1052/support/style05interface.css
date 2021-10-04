@@ -1,0 +1,210 @@
+body {
+  background-color: rgb(46, 163, 91 0.6);
+  padding: 1%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  text-overflow: normal;
+  break-after: avoid;
+}
+
+.goBack {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: italic;
+  font-size: 15pt;
+  background-color: #2ea15a;
+  padding: 1%;
+}
+.goBack a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 15pt;
+  background-color: #00682b;
+  padding: 0%;
+}
+.smallButton {
+  background-color: #2ea15a;
+  align-content: center;
+
+  padding-left: 10%;
+}
+
+.moretabs {
+  background-position: center;
+  text-align: center;
+  background-image: url(moretabs/moretabsback.png);
+  background-position: inherit;
+  background-size: contain;
+  /* width: 100%;*/
+  background-color: #dc98066e;
+  background-repeat: no-repeat;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* align-items: flex-start;
+               align-items: flex-end;
+               align-items: center; 
+               flex-direction: column;*/
+}
+.box-1 {
+  flex: 1;
+  order: 1;
+}
+.box-2 {
+  flex: 1;
+  order: 2;
+}
+.box-3 {
+  flex: 1;
+  order: 3;
+}
+.box-4 {
+  flex: 1;
+  order: 4;
+}
+.box-5 {
+  flex: 1;
+  order: 5;
+}
+.box-6 {
+  flex: 1;
+  order: 6;
+}
+
+.box-7 {
+  flex: 1;
+  order: 7;
+}
+.box-8 {
+  flex: 1;
+  order: 1;
+}
+.box-9 {
+  flex: 1;
+  order: 2;
+}
+.box-10 {
+  flex: 1;
+  order: 3;
+}
+.box-11 {
+  flex: 1;
+  order: 4;
+}
+.box-12 {
+  flex: 1;
+  order: 5;
+}
+.box-13 {
+  flex: 1;
+  order: 6;
+}
+.box-14 {
+  flex: 1;
+  order: 7;
+}
+.box-15 {
+  flex: 1;
+  order: 1;
+}
+.box-16 {
+  flex: 1;
+  order: 2;
+}
+.box-17 {
+  flex: 1;
+  order: 3;
+}
+.box-18 {
+  flex: 1;
+  order: 4;
+}
+.box-19 {
+  flex: 1;
+  order: 5;
+}
+.box-20 {
+  flex: 1;
+  order: 6;
+}
+.box-21 {
+  flex: 1;
+  order: 7;
+}
+.box-22 {
+  flex: 1;
+  order: 1;
+}
+.box-23 {
+  flex: 1;
+  order: 2;
+}
+.box-24 {
+  flex: 1;
+  order: 3;
+}
+.box-25 {
+  flex: 1;
+  order: 4;
+}
+.box-26 {
+  flex: 1;
+  order: 5;
+}
+.box-27 {
+  flex: 1;
+  order: 6;
+}
+.box-28 {
+  flex: 1;
+  order: 7;
+}
+
+.containerHover {
+  position: relative;
+  /* position: static; */
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+}
+
+.pics {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+
+  text-align: center;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.containerHover:hover .pics {
+  opacity: 0.3;
+}
+
+.containerHover:hover .middle {
+  opacity: 0.9;
+}
+
+.text01 {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  padding: 1%;
+  text-align: left;
+  width: 220pt;
+}
